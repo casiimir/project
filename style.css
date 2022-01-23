@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Dongle:wght@400;700&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 60vh;
+  background-color: rgb(240, 234, 231);
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 20px;
+
+  width: 160px;
+  height: 280px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.cardWrapper h2 {
+  margin: 10px 0 0;
+  color: rgb(40, 40, 40);
+  font-family: "Dongle", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.cardWrapper p {
+  margin-top: 0;
+  font-family: "Dongle", sans-serif;
+  font-size: 24px;
+  color: rgb(160, 160, 160);
+}
+
+.cardWrapper img {
+  margin-top: 30px;
+  height: 70px;
+}
