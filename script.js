@@ -11,6 +11,8 @@ const cardGenerator = (obj) => {
   cardParEl.textContent = obj.p;
 
   cardWrapperEl.append(cardImgEl, cardTitleEl, cardParEl);
+
+  console.log("Hello!");
   return document.body.append(cardWrapperEl);
 };
 
